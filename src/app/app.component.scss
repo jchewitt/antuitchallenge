@@ -1,0 +1,24 @@
+.tool-item {
+display: inline-grid;
+}
+
+.items {
+  padding-top: 8px;
+  a { color: black}
+  a:hover { color: black }
+  i {padding: 0 3px; cursor: pointer;}
+
+  i:hover {color: blue;}
+}
+
+.keyItem {
+  .title {
+    font-size: 16px;
+    display: block;
+  }
+
+  .keyItem {
+    font-size: 12px;
+    font-style: italic;
+  }
+}

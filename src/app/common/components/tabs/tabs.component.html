@@ -1,0 +1,3 @@
+<tabset #tabset>
+  <tab *ngFor="let tab of tabs; let i = index" (selectTab)="selected(i)" [heading]="tab.name"></tab>
+</tabset>

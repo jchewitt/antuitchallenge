@@ -1,0 +1,70 @@
+{
+  "tabs": [
+    {
+      "name": "Tab 1"
+    },
+    {
+      "name": "Tab 2"
+    },
+    {
+      "name": "Tab 3"
+    }
+  ],
+  "dropdown": [
+    {
+      "name": "Item 1",
+      "value": 1
+    },
+    {
+      "name": "Item 2",
+      "value": 2
+    }
+  ],
+  "tools": [
+    {
+      "name": "status",
+      "icon": "fa-heartbeat"
+    },
+    {
+      "name": "share",
+      "icon": "fa-share-alt"
+    },
+    {
+      "name": "filter",
+      "icon": "fa-filter"
+    },
+    {
+      "name": "calendar",
+      "icon": "fa-calendar"
+    }
+  ],
+  "items": [
+    {
+      "title": "Sample Item",
+      "keys": ["key item 1", "key item 2"]
+    },
+    {
+      "title": "Sample Item 2",
+      "keys": ["key item 3", "key item 4"]
+    }
+  ],
+  "chart": {
+  "data": [{
+      "name": "Node 1",
+      "x": 300,
+      "y": 300
+    }, {
+      "name": "Node 2",
+      "x": 800,
+      "y": 300
+    }, {
+      "name": "Node 3",
+      "x": 550,
+      "y": 100
+    }, {
+      "name": "Node 4",
+      "x": 550,
+      "y": 500
+    }]
+  }
+}

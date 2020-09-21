@@ -1,0 +1,27 @@
+.bars {
+  padding: 2px 25px;
+  border-right: 1px solid #d1d1d1;
+}
+
+.header {
+  margin: 2px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #d1d1d1;
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #5d48cc;
+  }
+
+  .bars {
+    padding: 2px 25px;
+    border-right: 1px solid #d1d1d1;
+  }
+
+  .tools {
+    a {
+      margin: 0 5px;
+    }
+  }
+}

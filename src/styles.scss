@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'nunito';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(/assets/fonts/nunito/Nunito-Regular.ttf) format('truetype');
+}
+
+* {
+  font-family: nunito;
+}

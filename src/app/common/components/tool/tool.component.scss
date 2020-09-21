@@ -1,0 +1,32 @@
+.tool {
+    padding: 2px 25px;
+    border-right: 1px solid #d1d1d1;
+    text-align: center;
+    span.title {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    i {
+      cursor: pointer;
+      text-align: center;
+      margin: 2px 0;
+        padding:5px;
+        border-radius: 50%;
+        font-size: 14px;
+    }
+
+    i.state0 { /* deactive */
+      color: #dedede;
+    }
+    i.state1 { /* active */
+      color: gray;
+    }
+    i.state2 { /* selected */
+      color: #5d48cc;
+    }
+    i.state3 { /* circled */
+      background-color: #5d48cc;
+      color: white;
+    }
+}
